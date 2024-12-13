@@ -1,0 +1,124 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  .container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  /* Left Section */
+  .left-section {
+    flex: 1;
+    background-color: #e0f7fa;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    color: #00796b;
+    margin-bottom: 10px;
+  }
+  
+  .illustration {
+    max-width: 80%;
+    height: auto;
+    margin: 20px 0;
+  }
+  
+  .quote {
+    font-size: 1.2rem;
+    color: #004d40;
+    font-style: italic;
+  }
+  
+  .author {
+    font-size: 1rem;
+    color: #004d40;
+    margin-top: 5px;
+  }
+  
+  /* Right Section */
+  .right-section {
+    flex: 1;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .login-box {
+    width: 300px;
+    text-align: center;
+  }
+  
+  .login-box h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .login-box label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .login-box select,
+  .login-box input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .btn-login {
+    width: 100%;
+    padding: 10px;
+    background-color: #00796b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-login:hover {
+    background-color: #004d40;
+  }
+  
+  .forgot-password {
+    display: block;
+    margin: 10px 0;
+    color: #00796b;
+    text-decoration: none;
+  }
+  
+  .forgot-password:hover {
+    text-decoration: underline;
+  }
+  
+  .btn-google {
+    width: 100%;
+    padding: 10px;
+    background-color: #db4437;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-google:hover {
+    background-color: #a93427;
+  }
+  

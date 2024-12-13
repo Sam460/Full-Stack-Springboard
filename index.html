@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Upskill Vision - Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Left Section -->
+    <div class="left-section">
+      <h1 class="title">Upskill Vision</h1>
+      <img src="illustration.png" alt="Illustration" class="illustration">
+      <p class="quote">"The best way to predict the future is to create it."</p>
+      <p class="author">- Peter Drucker</p>
+    </div>
+
+    <!-- Right Section -->
+    <div class="right-section">
+      <div class="login-box">
+        <h2>Login</h2>
+        <form>
+          <label for="role">Please Select:</label>
+          <select id="role">
+            <option value="hr-admin">HR Admin</option>
+            <option value="instructor">Instructor</option>
+            <option value="manager">Manager</option>
+            <option value="participant">Participant</option>
+          </select>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" placeholder="Enter your email" required>
+
+          <label for="password">Password:</label>
+          <input type="password" id="password" placeholder="Enter your password" required>
+
+          <button type="submit" class="btn-login">Login</button>
+        </form>
+        <a href="#" class="forgot-password">Forgot Password?</a>
+        <p>or</p>
+        <button class="btn-google">Continue with Google</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
