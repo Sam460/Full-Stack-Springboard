@@ -1,0 +1,183 @@
+/* App.css */
+
+/* Reset some default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General container settings */
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  background-color: #4e6280;
+  color: #6a2c2c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+/* Main App container */
+.App {
+  display: flex;
+  flex-direction: column;
+  width: 150%;
+  max-width: 300px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  text-align: center;
+}
+
+/* Header Section */
+.App-header {
+  margin-bottom: 2px;
+}
+
+.App-header h1 {
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Form styling */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.login-form .form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.login-form label {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fafafa;
+  transition: border 0.3s ease-in-out;
+}
+
+.login-form input:focus {
+  border-color: #3498db;
+  background-color: #fff;
+  outline: none;
+}
+
+.login-form button {
+  padding: 12px;
+  font-size: 1rem;
+  color: white;
+  background-color: #3498db;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  box-shadow: 0 4px 8px rgba(52, 152, 219, 0.3);
+}
+
+.login-form button:hover {
+  background-color: #2980b9;
+}
+
+/* Forgot Password link */
+.forgot-button {
+  margin-top: 10px;
+  color: #3498db;
+  background-color: transparent;
+  border: none;
+  font-size: 0.9rem;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.forgot-button:hover {
+  color: #2980b9;
+}
+
+/* Google Login Button */
+.google-login-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  font-size: 1rem;
+  background-color: #db4437;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  margin-top: 20px;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(219, 68, 55, 0.3);
+}
+
+.google-login-button:hover {
+  background-color: #c1351d;
+}
+
+/* Create Account Section */
+.create-account {
+  margin-top: 25px;
+}
+
+.create-account p {
+  font-size: 1rem;
+  color: #666;
+}
+
+.create-account-button {
+  padding: 12px 20px;
+  font-size: 1rem;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  box-shadow: 0 4px 8px rgba(40, 167, 69, 0.3);
+}
+
+.create-account-button:hover {
+  background-color: #218838;
+}
+
+.create-account-button:focus {
+  outline: none;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 480px) {
+  .App {
+    padding: 30px;
+  }
+
+  .App-header h1 {
+    font-size: 1.8rem;
+  }
+
+  .login-form {
+    gap: 15px;
+  }
+
+  .login-form button, .google-login-button, .create-account-button {
+    font-size: 1rem;
+    padding: 10px;
+  }
+}
