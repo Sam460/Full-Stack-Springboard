@@ -1,13 +1,10 @@
-/* App.css */
 
-/* Reset some default browser styles */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* General container settings */
 body {
   font-family: 'Helvetica Neue', sans-serif;
   background-color: #4e6280;
@@ -19,7 +16,6 @@ body {
   padding: 20px;
 }
 
-/* Main App container */
 .App {
   display: flex;
   flex-direction: column;
@@ -32,7 +28,6 @@ body {
   text-align: center;
 }
 
-/* Header Section */
 .App-header {
   margin-bottom: 2px;
 }
@@ -44,7 +39,6 @@ body {
   margin-bottom: 20px;
 }
 
-/* Form styling */
 .login-form {
   display: flex;
   flex-direction: column;
@@ -95,7 +89,6 @@ body {
   background-color: #2980b9;
 }
 
-/* Forgot Password link */
 .forgot-button {
   margin-top: 10px;
   color: #3498db;
@@ -110,7 +103,6 @@ body {
   color: #2980b9;
 }
 
-/* Google Login Button */
 .google-login-button {
   display: flex;
   justify-content: center;
@@ -162,7 +154,6 @@ body {
   outline: none;
 }
 
-/* Mobile responsiveness */
 @media (max-width: 480px) {
   .App {
     padding: 30px;
